@@ -122,7 +122,7 @@ const cal = () => {
     if (result || result === 0) {
       document.getElementById("result").innerHTML = `今の料金は${Math.floor(
         result
-      )}円/${planselected == 2 ? "時間" : "日"}`;
+      )}円`;
     }
   }
 };
