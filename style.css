@@ -4,7 +4,10 @@
   margin: 0;
   box-sizing: content-box;
 }
-
+body {
+  width: 100%;
+  max-width: 414px;
+}
 .active {
   background-color: white !important;
 }
