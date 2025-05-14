@@ -120,7 +120,9 @@ const cal = () => {
     }
 
     if (result || result === 0) {
-      document.getElementById("resultshow").innerHTML = `${Math.floor(result)}`;
+      document.getElementById("resultshow").innerHTML = `${Math.floor(
+        result
+      ).toLocaleString()}`;
     }
   }
 };
