@@ -30,4 +30,5 @@ body {
 }
 #result span {
   font-size: 32px;
+  padding: 0 8px;
 }

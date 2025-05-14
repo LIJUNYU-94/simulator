@@ -75,7 +75,7 @@ function updateNumofPeople() {
 let result = 0;
 //計算の関数
 const cal = () => {
-  document.getElementById("result").innerHTML = "";
+  document.getElementById("resultshow").innerHTML = "";
   console.log("cal関数いくぜ");
   if (planselected || planselected === 0) {
     console.log("計算に行きます！");
@@ -120,9 +120,7 @@ const cal = () => {
     }
 
     if (result || result === 0) {
-      document.getElementById(
-        "result"
-      ).innerHTML = `追加料金なしで<br><span>¥${Math.floor(result)}円</span>`;
+      document.getElementById("resultshow").innerHTML = `${Math.floor(result)}`;
     }
   }
 };
