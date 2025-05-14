@@ -6,9 +6,28 @@
 }
 
 .active {
-  opacity: 0.5;
+  background-color: white !important;
 }
 
 body {
   font-family: "Kiwi Maru", serif;
+}
+
+.mark {
+  display: inline-block;
+  padding: 0 5px 5px 0;
+}
+.num {
+  border-bottom: 1px #345d47 solid;
+  margin: 0 auto;
+  width: 80%;
+  align-items: center;
+  padding: 5px 0;
+}
+
+#result {
+  font-size: 24px;
+}
+#result span {
+  font-size: 32px;
 }

@@ -120,9 +120,9 @@ const cal = () => {
     }
 
     if (result || result === 0) {
-      document.getElementById("result").innerHTML = `今の料金は${Math.floor(
-        result
-      )}円`;
+      document.getElementById(
+        "result"
+      ).innerHTML = `追加料金なしで<br><span>¥${Math.floor(result)}円</span>`;
     }
   }
 };
