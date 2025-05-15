@@ -11,7 +11,9 @@ body {
 .active {
   background-color: white !important;
 }
-
+.plan-selector.active {
+  border: 5px #eba700 solid;
+}
 body {
   font-family: "Kiwi Maru", serif;
 }
