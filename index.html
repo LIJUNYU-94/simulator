@@ -24,9 +24,15 @@
       </div>
       <p class="text-green-900 mt-[-5px] tracking-wider">simulator</p>
     </div>
-
+    <div><p class="text-[#345D47] text-sm ml-[40px] mb-[40px] leading-[1.8]">アンダの森ではプランと <br>
+      子供の年齢による割引があります。 <br><br>
+      
+      こちらの料金チェックでは<br>
+      その料金変動見える化し、<br>
+      ご予約前におおよその宿泊料金を<br>
+      確認していただけます。</p></div>
     <div
-      class="bg-[#345d47] text-white rounded-xl max-w-sm mx-auto py-4 px-[45px] space-y-6 pb-[50px]"
+      class="bg-[#345d47] text-white rounded-xl w-[90%] mx-auto py-4 px-[25px] space-y-6 pb-[50px]"
     >
      
       <!-- 日付 -->
@@ -51,6 +57,10 @@
       <div>
         <p class="mb-2 text-center"><img class="mark" src="img/user.svg" alt="user">人数</p>
         <div class="peopleselect grid grid-cols-4 gap-2 text-black mb">
+          <div>
+            <div class="peopleselectplan w-[56px] h-[56px] bg-[#EBA700] rounded-full ml-[7px] flex flex-column justify-center mb-[10px]">
+          <p class="tracking-thick leading-[1.1] w-fit m-auto text-white font-thin">基本 <br>料金</p>
+        </div>
           <div class="text-center text-[#345D47] bg-[#FFFBF7] rounded-xl">
             <p class="text-sm num">大人</p>
             <input
@@ -62,6 +72,9 @@
               onchange="updateNumofPeople()"
             />
           </div>
+        </div><div><div class="peopleselectplan w-[56px] h-[56px] bg-[#EBA700] rounded-full ml-[7px] flex flex-column justify-center mb-[10px]">
+          <p class="tracking-wide leading-[1.1] w-fit m-auto text-white font-thin text-center ">30% <br>off</p>
+        </div>
           <div class="text-center text-[#345D47] bg-[#FFFBF7] rounded-xl">
             <p class="text-sm num">〜11才</p>
             <input
@@ -72,6 +85,8 @@
               class="w-full p-1 rounded-xl text-right"
               onchange="updateNumofPeople()"
             />
+          </div></div><div><div class="peopleselectplan w-[56px] h-[56px] bg-[#EBA700] rounded-full ml-[7px] flex flex-column justify-center mb-[10px]">
+            <p class="tracking-wide leading-[1.1] w-fit m-auto text-white font-thin text-center ">50% <br>off</p>
           </div>
           <div class="text-center text-[#345D47] bg-[#FFFBF7] rounded-xl">
             <p class="text-sm num">〜6才</p>
@@ -83,6 +98,8 @@
               class="w-full p-1 rounded-xl text-right"
               onchange="updateNumofPeople()"
             />
+          </div></div><div><div class="peopleselectplan w-[56px] h-[56px] bg-[#EBA700] rounded-full ml-[7px] flex flex-column justify-center mb-[10px]">
+            <p class="tracking-wide leading-[1.1] w-fit m-auto text-white font-thin text-center ">100% <br>off</p>
           </div>
           <div class="text-center text-[#345D47] bg-[#FFFBF7] rounded-xl">
             <p class="text-sm num">〜3才</p>
@@ -94,7 +111,7 @@
               class="w-full p-1 rounded-xl text-right"
               onchange="updateNumofPeople()"
             />
-          </div>
+          </div></div>
         </div>
       </div>
  <!-- プラン -->

@@ -5,8 +5,12 @@
   box-sizing: content-box;
 }
 body {
+  font-family: "Kiwi Maru", serif;
   width: 95%;
   max-width: 414px;
+  background-image: url("img/bg.png");
+  background-size: 300%;
+  background-position: center;
 }
 .active {
   background-color: white !important;
@@ -14,8 +18,17 @@ body {
 .plan-selector.active {
   border: 5px #eba700 solid;
 }
-body {
-  font-family: "Kiwi Maru", serif;
+
+.peopleselectplan {
+  position: relative;
+  overflow: visible;
+}
+.peopleselectplan::before {
+  content: url("img/14.png");
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: -11px;
 }
 
 .mark {
